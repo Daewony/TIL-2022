@@ -1,5 +1,16 @@
 # TIL-2022
 
+## 0206
+{
+  ```
+    cin.tie(0);
+    cout.tie(0);
+    std::ios::sync_with_stdio(false);
+  ```
+  scanf VS cin 뭐가 효율이 좋을까?
+  
+}
+
 ## 0205
 {
 

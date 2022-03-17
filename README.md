@@ -2,7 +2,7 @@
 
 ## 0317
 {
-  .
+  ios::sync_with_stdio(false)
 }
 
 ## 0316

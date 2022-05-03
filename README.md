@@ -1,5 +1,14 @@
 # TIL-2022
 
+## 0503
+{
+  -CSS
+  position의 기능 차이
+  relative
+  absolute
+}
+
+
 ## 0429
 {
   

@@ -2,6 +2,7 @@
 
 ## 0515
 {
+ top, z-index과의 관계
  width vs max-width
  max-width는 언제부터 적용되는 건가?
 }

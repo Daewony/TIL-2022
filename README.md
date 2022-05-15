@@ -2,7 +2,9 @@
 
 ## 0515
 {
- top, z-index과의 관계
+ top, z-index과의 관계 => 위에 모달이 다 덮어져 있어서 클릭을 못하는 상황
+ 모달이 top으로 header 크기만큼 공간이 생기면 클릭이 가능해짐(아래로 내려감)
+ 혹은 header 나 icon이 덮은 부위보다 높은 z-index 설정
  width vs max-width
  max-width는 언제부터 적용되는 건가?
 }

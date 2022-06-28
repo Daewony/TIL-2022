@@ -1,5 +1,20 @@
 # TIL-2022
 
+## 0628 {
+ Promise 객체 : 비동기 작업 수행을 해당 함수를 동기적으로 작업 수행하도록 함
+ then : 순차적으로 동기적으로 이어주는 실행 프로퍼티? success 케이스, error 케이스로 설정 가능
+ catch : 
+ 
+ Promise의 3가지 상태 : 대기, 이행, 실패
+  
+ chaining & return
+ finally
+ Promise.all
+ Promise.race
+ 
+ 
+}
+
 ## 0627 {
  동기: 순차적으로 해결된 후에 다음으로 넘어감
  비동기: 순차적이지만 해결되지 않아도 다음으로 넘어가서 먼저 실행시킬 수 있음

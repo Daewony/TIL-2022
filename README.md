@@ -12,6 +12,13 @@
  Promise.all
  Promise.race
  
+ ---------
+ # CSS
+ 
+ grid-template-areas : 영역 이름으로 그리드 정의,
+ 영역을 직관적으로 배치 가능! (IE 안됨 ㅠ)
+ 
+ 
  
 }
 

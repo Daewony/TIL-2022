@@ -1,5 +1,28 @@
 # TIL-2022
 
+## 0629 {
+ DOM(Document Object Model) : 
+ DOM + CSSOM => Render tree 생성
+ 
+ <script></script> 
+ </body> // /body 태그 직전에 script 태크로 코드 파일 형태로 추가하기
+ 
+ window 와 BOM(Nrowser Object Model)
+ window.alert() => alert() 
+ 생략이 가능하다.
+ 
+ BOM 의 주요 객체
+ console.log(navigator.userAgent); // 브라우저 정보
+ console.log(navigator.platform); // 운영체제 정보
+ console.log(location.href); // 현재 URL 정보
+ 
+ 
+ ---------------
+ gird-auto-flow : 자동 배치
+ 
+ 
+}
+
 ## 0628 {
  Promise 객체 : 비동기 작업 수행을 해당 함수를 동기적으로 작업 수행하도록 함
  then : 순차적으로 동기적으로 이어주는 실행 프로퍼티? success 케이스, error 케이스로 설정 가능

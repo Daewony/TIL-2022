@@ -1,7 +1,19 @@
 # TIL-2022
 
 ## 0630 {
- +  
+ +  CRUD
+ +  < Read 해당 메서드(HTML) >
+ +  document.getElementById(id) : id 로 찾기
+ +  document.getElementsByTagName(name) : 태그로 찾기(배열로 리턴)
+ +  document.getElementsByClassName(name) : class이름으로 찾기(배열로 리턴)
+ +  document.querySelector(css_selector) : CSS Selector로 찾기(첫번째 요소만)
+ +  document.querySelectorAll(css_selector) : CSS Selector로 찾기(모든 요소 찾음 -> 배열로 리턴)
+
+ + < Update 해당 메서드(HTML) >
+ + element**.innerText** = new html content : 요소 내용 확인/수정하기(태그 미포함)
+ + element.innerHTML = new html content : 요소 내용 확인/수정하기(태그 포함)
+ + element.attribute = new value : 요소의 attribute 값 수정하기
+ + element.style.property = new style : 요소의 CSS 프로퍼티 값 수정하기
 }
 
 ## 0629 {

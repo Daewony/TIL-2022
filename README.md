@@ -9,11 +9,24 @@
  +  document.querySelector(css_selector) : CSS Selector로 찾기(첫번째 요소만)
  +  document.querySelectorAll(css_selector) : CSS Selector로 찾기(모든 요소 찾음 -> 배열로 리턴)
 
- + < Update 해당 메서드(HTML) >
- + element**.innerText** = new html content : 요소 내용 확인/수정하기(태그 미포함)
+ + < Update 해당 (HTML) >
+ + < 프로퍼티 >
+ + element.innerText = new html content : 요소 내용 확인/수정하기(태그 미포함)
  + element.innerHTML = new html content : 요소 내용 확인/수정하기(태그 포함)
  + element.attribute = new value : 요소의 attribute 값 수정하기
  + element.style.property = new style : 요소의 CSS 프로퍼티 값 수정하기
+ + < 메서드 >
+ + element.setAttribute(attribute, value) : 요소의 attribute 값 설정하기
+
+
+-----------
+
++ align-items : 세로 방향 정렬
++ justify-items : 가로 방향 정렬
++ align-content : 아이템 그룹 세로 정렬
++ align-self : 개별 아이템 세로 정렬
++ justify-self : 개별 아이템 가로 정렬
++ place-self : 위 두개 단축 속성
 }
 
 ## 0629 {

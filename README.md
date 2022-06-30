@@ -28,34 +28,34 @@
 }
 
 ## 0628 {
- Promise 객체 : 비동기 작업 수행을 해당 함수를 동기적으로 작업 수행하도록 함
- then : 순차적으로 동기적으로 이어주는 실행 프로퍼티? success 케이스, error 케이스로 설정 가능
- catch : 
+ + Promise 객체 : 비동기 작업 수행을 해당 함수를 동기적으로 작업 수행하도록 함
+ + then : 순차적으로 동기적으로 이어주는 실행 프로퍼티? success 케이스, error 케이스로 설정 가능
+ + catch : 
  
- Promise의 3가지 상태 : 대기, 이행, 실패
+ + Promise의 3가지 상태 : 대기, 이행, 실패
   
- chaining & return
- finally
- Promise.all
- Promise.race
+ + chaining & return
+ + finally
+ + Promise.all
+ + Promise.race
  
  ---------
  # CSS
  
- grid-template-areas : 영역 이름으로 그리드 정의,
- 영역을 직관적으로 배치 가능! (IE 안됨 ㅠ)
+ + grid-template-areas : 영역 이름으로 그리드 정의,
+ + 영역을 직관적으로 배치 가능! (IE 안됨 ㅠ)
  
  
  
 }
 
 ## 0627 {
- 동기: 순차적으로 해결된 후에 다음으로 넘어감
- 비동기: 순차적이지만 해결되지 않아도 다음으로 넘어가서 먼저 실행시킬 수 있음
+ + 동기: 순차적으로 해결된 후에 다음으로 넘어감
+ + 비동기: 순차적이지만 해결되지 않아도 다음으로 넘어가서 먼저 실행시킬 수 있음
  
- Grid의 item 크기 및 위치 조정
- grid-column: 1 / 3;
- grid-row: 1 / 2;
+ + Grid의 item 크기 및 위치 조정
+ + grid-column: 1 / 3;
+ + grid-row: 1 / 2;
 }
 
 ## 0626 {

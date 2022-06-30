@@ -1,20 +1,24 @@
 # TIL-2022
 
+## 0630 {
+ +  
+}
+
 ## 0629 {
- DOM(Document Object Model) : 
- DOM + CSSOM => Render tree 생성
+ + DOM(Document Object Model) : 
+ + DOM + CSSOM => Render tree 생성
  
- <script></script> 
- </body> // /body 태그 직전에 script 태크로 코드 파일 형태로 추가하기
+ + <script></script> 
+ + </body> // /body 태그 직전에 script 태크로 코드 파일 형태로 추가하기
  
- window 와 BOM(Nrowser Object Model)
- window.alert() => alert() 
- 생략이 가능하다.
+ + window 와 BOM(Nrowser Object Model)
+ + window.alert() => alert() 
+ + 생략이 가능하다.
  
- BOM 의 주요 객체
- console.log(navigator.userAgent); // 브라우저 정보
- console.log(navigator.platform); // 운영체제 정보
- console.log(location.href); // 현재 URL 정보
+ + BOM 의 주요 객체
+ + console.log(navigator.userAgent); // 브라우저 정보
+ + console.log(navigator.platform); // 운영체제 정보
+ + console.log(location.href); // 현재 URL 정보
  
  
  ---------------

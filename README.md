@@ -1,7 +1,19 @@
 # TIL-2022
 
-## 0704 {
-
+## 0704 { 
+ +  < Create 해당 메서드 >
+ +  document.createElement(element) : HTML 요소 생성
+ +  document.appendChild(element) : HTML 요소 추가
+ +  
+ +  < Delete 해당 메서드 >
+ +  document.removeChild(element) : HTML 요소 삭제
+ +  document.replaceChild(new, old) : HTML 요소 대체
+ +  
+ +  < HTML 요소 탐색 >
+ +  element.parentNode : 부모 요소
+ +  element.nextElementSibling : 현재 요소의 다음 형제 요소
+ +  element.previousElementSibling : 현재 요소의 이전 형제 요소
+ +  element.children : 자식 요소들 (배열 형태)
 }
 
 

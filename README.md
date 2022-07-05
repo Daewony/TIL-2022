@@ -1,5 +1,11 @@
 # TIL-2022
 
+## 0705 {
+ + 이벤트
+ + 이벤트 생성 및 삭제
+ + 
+}
+
 ## 0704 { 
  +  < Create 해당 메서드 >
  +  document.createElement(element) : HTML 요소 생성

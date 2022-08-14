@@ -1,5 +1,31 @@
 # TIL-2022
 
+## 0814 {
+  + min-width와 max-width의 차이
+  + min-width(최소 width)가 1000px, 즉 1000px 이상인 경우에 적용되는 코드이고
+  ```
+  @media (min-width: 1000px) {
+    body {
+      background: gold;
+    }
+  }
+  ```  
+  + max-width(최대 width)가 1000px, 즉 1000px 이하인 경우에 적용되는 코드지요.
+  ```
+  @media (max-width: 1000px) {
+    body {
+      background: gold;
+    }
+  }
+  ````
+ + min-width를 사용하는 경우
+  <br/> 
+  스마트폰 등 가장 작은 사이즈에서의 레이아웃을 기본으로 하고, 점차 확장되어가는 형태로 CSS를 작성합니다.
+
+ + max-width를 사용하는 경우    \\띄어쓰기 데스크탑용의 가장 큰 화면 사이즈의 레이아웃을 기본으로 하고, 점차 축소하는 형태로 CSS를 작성합니다.
+ 
+}
+
 ## 0813 {
   + 
 }

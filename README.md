@@ -1,6 +1,12 @@
 # TIL-2022
 
 ## 0814 {
+  + Uncaught TypeError: Cannot read properties of undefined 오류 발생
+  + JS코드엔 문제가 없었으나 함수 관련 CSS에서 ; 관련 문제발생함
+
+}
+
+## 0814 {
   + min-width와 max-width의 차이
   + min-width(최소 width)가 1000px, 즉 1000px 이상인 경우에 적용되는 코드이고
   ```

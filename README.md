@@ -1,5 +1,10 @@
 # TIL-2022
 
+## 0829 {
+  + 
+
+}
+
 ## 0814 {
   + Uncaught TypeError: Cannot read properties of undefined 오류 발생
   + JS코드엔 문제가 없었으나 함수 관련 CSS에서 ; 관련 문제발생함

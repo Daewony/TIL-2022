@@ -1,5 +1,11 @@
 # TIL-2022
 
+## 0913 {
+  + p, h 태그 가운데 정렬: text-align: center;
+  + 가로 스크롤 필요 없을 시, body { overflow-x: hidden; } 하기
+
+}
+
 ## 0912 {
   + rem -> font-size 따라감
   + em -> 현재 추가로 적용된 font-size에 따라감

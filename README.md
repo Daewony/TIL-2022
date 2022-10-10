@@ -13,7 +13,7 @@
   + box-sizing: border-box 
   + 를 적용하면 padding을 적용한 만큼 기본사이즈를 줄여서 기존 높이를 유지하게 처리해준다.
   + ex) height: 120px, padding: 15px => 총 높이: 120 + 15(위) + 15(아래) = 150px
-  + ex) height: 120px, padding: 15px, box-sizing: border-box => 총 높이: 90(120-30) + 15(위) + 15(아래) = 120px, 즉 추가된 padding 만큼 기존 높이를 빼서 원하는 사이즈로 설정가능하게 해준다.
+  + ex) height: 120px, padding: 15px, box-sizing: border-box => 총 높이: 90(120-30) + 15(위) + 15(아래) = 120px, 즉 추가된 padding 만큼 기존 높이를 빼서 원하는 사이즈로 설정 가능하게 해준다.
   
 }
 

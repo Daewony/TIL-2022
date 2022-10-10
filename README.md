@@ -1,15 +1,32 @@
 # TIL-2022
 
+## 1010 {
+  + font awesome 네모 상자 오류 문제 발생
+  + 1. 설정에서 본인 버전이 5인지 6인지 확인 후 6으로 변경
+  + 2. CDN: https://cdnjs.com/libraries/font-awesome 으로 가서 적용
+  + 3. (임시 방편) <i class="fa-brands fa-python skill"> -> (클래스에 fas, fab 추가)<i class="fas fa-brands fa-python skill"> or <i class="fab fa-brands fa-python skill"> 추가한다(버전에 따른 클래스명)
+
+  + css 하는 도중
+  + height, width  <-> margin, padding의 관계가 궁금해짐
+  + 높이 설정후 padding을 적용하면 높이가 커진다.
+  + 그럼 어떻게해야 쉽게 높이 설정할 수 있지?
+  + box-sizing: border-box 
+  + 를 적용하면 padding을 적용한 만큼 기본사이즈를 줄여서 기존 높이를 유지하게 처리해준다.
+  + ex) height: 120px, padding: 15px => 총 높이: 120 + 15(위) + 15(아래) = 150px
+  + ex) height: 120px, padding: 15px, box-sizing: border-box => 총 높이: 90(120-30) + 15(위) + 15(아래) = 120px, 즉 추가된 padding 만큼 기존 높이를 빼서 원하는 사이즈로 설정가능하게 해준다.
+  
+}
+
 ## 1005 {
-  align-items vs align-content 차이
-  align-items는 수직축의 라인을 기준으로 아이템들이 정렬이 되고,
-  align-content는 수직축의 라인을 기준으로 (두 줄 이상 일 때만) 라인 자체가 정렬이 된다.
+  + align-items vs align-content 차이
+  + align-items는 수직축의 라인을 기준으로 아이템들이 정렬이 되고,
+  + align-content는 수직축의 라인을 기준으로 (두 줄 이상 일 때만) 라인 자체가 정렬이 된다.
 }
 
 
 
 ## 0921 {
-  flex-basis: 0; 으로, 기본 점유 크기를 0으로 만들어버려 결국 전체 크기를 1:2:1로 나누어 가져서, 영역 자체의 크기가 정확히 1:2:1의 비율로 설정되었습니다.
+  + flex-basis: 0; 으로, 기본 점유 크기를 0으로 만들어버려 결국 전체 크기를 1:2:1로 나누어 가져서, 영역 자체의 크기가 정확히 1:2:1의 비율로 설정되었습니다.
 여백의 비가 아닌, 영역 자체를 원하는 비율로 분할하기를 원한다면 이렇게 flex-basis을 0으로 하면 손쉽게 처리할 수 있어요.
 }
 

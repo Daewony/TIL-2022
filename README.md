@@ -1,5 +1,15 @@
 # TIL-2022
 
+## 1011 {
+  + 미디어 쿼리
+  + @media(조건) <-> @media screen and (조건) <-> @media only screen and (조건)
+  + 위 각각 미디어 쿼리를 조건에 맞게 사용하는 것인데 왜 이렇게 나눠져있고 사용목적이 다른가?
+  + @media only screen and (조건) 는 옛날 브라우저(미디어 쿼리를 제공 못함)가 이 미디어 쿼리를 못읽음 -> 지원 못하는 브라우저는 적용하지 못하도록 only를 사용함
+  + @media (조건) = @media all and (조건), 즉 생략된 부분이다
+  + @media (조건) != @media screen and (조건) 같지 않다
+  + 오히려 @media (조건)은 screen & print 동시 사용가능하니 더 기능이 많다
+}
+
 ## 1010 {
   + font awesome 네모 상자 오류 문제 발생
   + 1. 설정에서 본인 버전이 5인지 6인지 확인 후 6으로 변경

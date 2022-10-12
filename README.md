@@ -1,5 +1,11 @@
 # TIL-2022
 
+## 1012 {
+  sort <-> sorted 차이
+  sort: 원본 정렬, 원본값을 수정
+  sorted: 복사본을 만들어서 정렬, 새로운 리스트를 만들어서 리턴, 원본값은 그대로, 정렬값 반환
+}
+
 ## 1011 {
   + 미디어 쿼리
   + @media(조건) <-> @media screen and (조건) <-> @media only screen and (조건)

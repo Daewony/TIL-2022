@@ -1,5 +1,37 @@
 # TIL-2022
 
+## 1014 {
+  + 화면이 일정 수준으로 커지면 모든 컨텐츠가 가운데로 모여야하는데 이걸 구현을 못함
+  + => inner 클래스를 만들어서 magin: 0 auto로 하자
+  + 헤더 고정 : 
+  ```
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:1000
+  width:100%
+  height:(원하는 높이)px
+  ```
+  + 대중적인 클래스 네임
+  + 전체 > inner, wrapper > container > item
+  + 이미지 않에 여러 줄의 글자를 정렬시에 padding-top, padding-bottom으로 세팅하는 방법도 있음
+  + 원모양 만드는 법:
+  ```
+  width:40px;
+  height:40px;
+  border-radius:20px // width,height의 절반 값이면 원이 된다.
+  ```
+  + 세로정렬 팁
+  + line-height == height 값이면 가운데로 정렬됨(수직 정렬)
+  + height:40px;
+  + line-height:40px;
+  + text-align:center // 가로,수평 정렬
+  + window.addEventListener('action',function) // 행동 후 함수호출
+  + .classList.add(' ') // 클래스 추가(붙이기)
+  + window.scrollTo() // 문서의 지정된 위치로 스크롤 한다
+  + window.scrollTo(top:0,left:0,behavior:auto) // top: 세로 위치, left: 가로 위치, behavior: auto(기본) or smooth
+}
+
 ## 1013 {
   ```
     <i></i>

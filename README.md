@@ -1,5 +1,40 @@
 # TIL-2022
 
+## 1018 {
+  + getElementById 그리고 querySelector 차이점
+  + <getElementById()는 무엇인가?>
+  ```
+  element = document.getElementById(id);
+  ```
+  + id를 통해 엘리먼트를 반환한다. 만약 document에 구체적인 ID의 엘리먼트가 없다면 null을 반환한다.
+  
+  + <querySelector()는 무엇인가?>
+  ```
+  element = document.querySelector(selectors);
+  ```
+  + selector의 구체적인 그룹과 일치하는 document안 첫번째 엘리먼트를 반환한다. 일치하는게 없으면 null반환한다.
+  + 예시)
+  ```
+  <form id="userForm">
+    <input id="username" type="text" value="Guilherme" />
+  </form>
+  ```
+  + 위와 같은 코드가 있다고 가정해보자. 우리는 username 요소를 얻고 싶고 이를 변수에 할당하고 싶다.
+
+  + 첫번째로 getElemenyById를 통해 해보자!
+  ```
+  let username = document.getElementById("username");
+  ```
+  그리고 이번에는 querySelector를 통해 같은 요소를 얻어보자!
+  ```
+  let username = document.querySelector("#userForm #username");
+  ```
+  + 위 코드를 보면 알 수 있듯이,querySelector를 통해 우리가 원하는 엘리먼트를 선택하는 것은 더 구체적이고 한정적이다. 
+  + 결론적으로 getElementByID가 더 빠르고 더 잘 지원이 되니 일반적으론 이걸 사용하면 되겠다. 
+  + 더 구체적인 엘리먼트를 선택하고 싶다면, querySelector그리고 querySelectorAll을 사용해보자!
+  
+}
+
 ## 1014 {
   + 화면이 일정 수준으로 커지면 모든 컨텐츠가 가운데로 모여야하는데 이걸 구현을 못함
   + => inner 클래스를 만들어서 magin: 0 auto로 하자

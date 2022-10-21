@@ -1,6 +1,14 @@
 # TIL-2022
 
 ## 1018 {
+  + input() <-> input().split() 의 차이
+  + 입력: 3 3 6
+  + input(): 문자열, "3 3 6" 으로 len: 5임
+  + input().split(): 문자열 리스트, ['3','3','6']으로 len: 3이다
+  + 문자열, 문자열 리스트 차이가 있다
+}
+
+## 1018 {
   + getElementById 그리고 querySelector 차이점
   + <getElementById()는 무엇인가?>
   ```

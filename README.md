@@ -1,5 +1,10 @@
 # TIL-2022
 
+## 1024 {
+  + .isdemical() 숫자이면 True로 반환함
+  + for i in a 를 for i in range(len(a)) 대신 사용하자
+}
+
 ## 1018 {
   + input() <-> input().split() 의 차이
   + 입력: 3 3 6

@@ -1,5 +1,31 @@
 # TIL-2022
 
+## 1025 {
+  ```
+  arr = []
+for i in range(1, 21):
+  arr.append(i)
+  ```
+  대신
+  ```
+  a=list(range(21)) 
+  a.pop(0) # 제일 앞쪽(0번 인덱스)에 값을 없앤다.  
+  ```
+  을 이용하자
+  + 스왑방식도 바꾸자
+  ```
+  # c++ 형식
+  tmp = arr[i]
+  arr[i] = arr[j]
+  arr[j] = tmp
+  ```
+  ```
+  # 파이썬 
+  #a와 b가 자리가 바뀜
+  a, b=b, a
+  ```
+}
+
 ## 1024 {
   + .isdemical() 숫자이면 True로 반환함
   + for i in a 를 for i in range(len(a)) 대신 사용하자

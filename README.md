@@ -1,5 +1,13 @@
 # TIL-2022
 
+
+## 1028 {
+  + 1rem = 16px
+  + font-weight: bold 기준 (700)
+  + transition: opacity 란
+  + vertical-align 란
+}
+
 ## 1026 {
   + img 태그 <-> picture 태그 <-> background-image 의 관계와 서로의 장단점,차이가 무엇이지?
   + padding, margin의 헷갈린다 -> 어떻게 하면 쉽게 알 수 있지?

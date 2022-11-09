@@ -1,4 +1,59 @@
 # TIL-2022
+
+## 1109 {
+```
+.section {
+    background-color: white;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: stretch; /* 이거 때문에 이미지 크기랑 같게 영향을 줘서 컨텐츠 높이가 늘어남 */
+    /* 이미지 기본 크기 -> 부모 영향 -> 자식에게 영향, 높이값만 영향받음*/
+    /* 위가 늘어나는 현상 같음 ㅋㅋ, 늘어나도 중력으로 아래로 늘어나고 */
+    text-align: right;
+}
+
+.section.align_right {
+    /* flex-direction: ; */
+}
+
+/* 1. 줬다 빼기 */
+.section:last-child {
+    margin-bottom: 0; 
+}
+
+/* 2. 다음 섹션에 적용 즉 2~3번째 섹션적용, 첫번째 x */
+.section + .section {
+    margin-top: 40px;
+}
+
+/* 3. 첫번째 이후의 모든 것들 */
+.section:first-child ~ .section {
+    margin-top: 40px;
+}
+
+/* 4. not() */
+.section:not(:first-child) {
+    margin-top: 40px;
+}
+
+/* ☆☆☆☆확인하는 습관☆☆☆☆ */
+
+.section-cover {
+    width: 240px;
+    background-color: orange; /* 어떻게 공간을 차지하는지 보자 */
+    margin-bottom: auto;
+}
+
+.section-contents {
+    /* border: 4px solid dodgerblue; */ /* 어떻게 공간을 차지하는지 보자, 다만 전체 레이아웃 영향을 끼침 */
+    box-shadow: inset 0 0 10px red; /* 공간 차지 부분 없음, 상황파악 용이함 */
+    padding: 30px;
+    flex-grow: 1;
+}
+```
+
+}
+
 ## 1108 {
 }
 

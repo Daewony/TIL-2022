@@ -1,7 +1,61 @@
 # TIL-2022
 
-## 1122 {
-    
+## 1123 {
+    # ****라인하이트 line height****
+
+**줄 간의 간격을 설정**
+
+[Initial value](https://developer.mozilla.org/en-US/docs/Web/CSS/initial_value): `normal`
+
+**상대값으로 적용시켜라**
+
+line-height: 1.2;
+
+픽셀 단위로 하지마라
+
+왜? font-size가 커지면 비례해서 line-height가 커지는데
+
+line-height를 픽셀로하면 
+
+line-height: 30px;
+
+font-size: 40px; 
+
+⇒ 원하는 줄간격이 안될 가능성이 높아지기 때문이다
+
+혹은 좁은 공간에 더 큰 컨텐츠가 넘쳐 흐를 수 있다
+
+그래서 
+
+line-height: 1.4;
+
+상대 값으로 적용시키자
+
+**상속이 된다**
+
+em을 쓰지마라 → 쓰면 픽셀이 된다 → 오류가 발생할 수 있다
+
+**line-height 와 font 와의 관계**
+
+설정된 font-size보다 큰 이유: font-size의 위, 아래 공간에 리딩 영역을 기본적으로 넣어주기 때문
+
+*리딩 영역: 텍스트가 여러줄이 있을때 읽기 편하게 하기 위한 한줄의 높이를 위한 공간
+
+line-height: 1 = font-size의 크기(기본설정이면 16px)
+
+line-height: normal; /* 폰트 종류에 따라 다르다! */
+
+font-size에 따라 크기가 변한다면 em 적용하기
+
+ex) 
+
+font-size: 90px;
+
+margin-top: -1em
+
+근데 line-height: 0.8 (1보다 작다면)
+
+margin-top: -0.8em 로 적용해야한다!
 }
 
 ## 1121 {

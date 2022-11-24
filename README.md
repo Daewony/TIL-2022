@@ -1,5 +1,54 @@
 # TIL-2022
 
+## 1124 {
+    틀을 보는것이 중요하다
+
+CSS 보다 어려운게 마크업이다
+
+무수히 많은 마크업이 가득 있지만 참아야한다 →
+
+all: unset;
+
+버튼, 인풋, 폼 → 초기화할게 많아서 all: unset; 하는게 좋
+
+img 요소에 마진 없는데 왜 아랫쪽 공간이 생기냐?
+
+vertical-align: top;
+
+이미지의 height 값을 지정 안해주는 것, 자동 조절되는 것이 베스트다
+
+버튼은 강제로 높이를 맞춰야해서 평소에도 48px
+
+l_wrapper 에게 flex를 주지 않는다
+
+상황을 제대로 파악하기 위해 
+
+background-color
+
+border
+
+box-shadow 등 확인하기
+
+왜 섹션 헤더 높이가 높아졌냐? flex-container에게 있는 align-items 프로퍼티 때문이다.
+
+```css
+align-items: stretch;
+}
+```
+
+컨텐츠 만큼 부모의 크기가 결정된다. 부모의 크기가 결정되면 flex-items가 stretch되는 영향을 끼치게 한다. 그래서 높이가 추가가 됐
+
+나) 늘어나서 공간을 차지하는 만큼 높아진다? 그냥flex 특징때문에 높아지지 않나?
+
+flex-grow: 1; (남은 공간 내가 쓸래!)
+
+사용 가능한 공간을 flex-items 끼리 논의를 한다 →누가 쓸래?
+
+의미가 있는 컨텐츠다 = html
+
+꾸민다 = css
+}
+
 ## 1123 {
     ##라인하이트 line height
 
